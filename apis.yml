@@ -1,7 +1,27 @@
 aid: quantierra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantierra.png
 name: Quantierra
-description: Quantierra is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Quantierra (Quantierra Advisors LLC) is a quantitative real estate advisory
+  firm that uses proprietary software to source, analyze, and execute real
+  estate transactions on behalf of institutional investors, family offices,
+  nonprofits, and everyone in between. The firm blends data-driven deal sourcing
+  and quantitative underwriting with traditional brokerage and advisory
+  services. Quantierra keeps a deliberately low public profile at the preference
+  of its clients and does not publish a public developer program, API, or
+  self-service platform; its technology is used internally to support client
+  engagements rather than exposed as a product.
 url: https://raw.githubusercontent.com/api-evangelist/quantierra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Real Estate Advisory
+- Quantitative Analysis
+- Investment
+- Data
 apis: []
+common:
+- type: DomainSecurity
+  url: security/quantierra-domain-security.yml
+- type: Website
+  url: https://www.quantierra.com
+- type: Support
+  url: mailto:hello@quantierra.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
