@@ -45,7 +45,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Real Estate Advisory
 - Quantitative Analysis
@@ -59,6 +59,7 @@ tags_raw:
 - Quantitative Analysis
 - Investment
 - Data
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
